@@ -1,2 +1,2 @@
 # Jogo da Velha JS
- Jogo da Velha programado em JavasCript integrado a uma página web
+ Jogo da Velha programado em JavaScript integrado a uma página web.
