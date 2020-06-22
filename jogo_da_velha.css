@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+.wraper{
+    background-color: black;
+    width: auto;
+    height: auto;
+    display: grid;
+    grid-template-areas: 'quad1 quad2 quad3' 'quad4 quad5 quad6' 'quad7 quad8 quad9';
+}
+
+
+.slot{
+    width: 14vw;
+    height: 17vh;
+    background: cadetblue;
+    box-shadow: 0;
+    outline: 0;
+    border: 0;
+    margin: 0.3vh;
+    font-size: 15vh;
+}
+
+.slot:hover{
+    background: rgb(43, 121, 124);
+}
+
+h1{
+    top: 0px;
+    font-family: Oswald;
+    font-size: 10vh;
+    color:grey;
+    margin: 2vh;
+}
+
+.sup{
+    border: 1px solid gray;
+    width: 100vw;
+    margin-top: 1vh;
+    margin-bottom: 5vh;
+}
+
+hr{
+    border: 1px solid gray;
+    width: 100vw;
+    margin-top: 2vh;
+    margin-bottom: 5vh;
+}
+
+#turn{
+    width: auto;
+    height: auto;
+    font-size: 5vh;
+    color: rgb(43, 121, 124);
+    margin: 3vh;
+}
+
+#reset{
+    width: auto;
+    height: auto;
+    font-size: 5vh;
+    color: rgb(43, 121, 124);;
+    padding: 1vh;
+    margin: 3vh;
+    box-shadow: 0;
+    outline: 0;
+    border: 0;
+    background: none;
+}
+
+#reset:hover{
+    background: rgb(43, 121, 124);
+    color: black;
+}
+
+p{
+    color: grey;
+}

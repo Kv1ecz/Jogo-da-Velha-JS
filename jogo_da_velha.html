@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="jogo_da_velha.js"></script>
+    <link rel="stylesheet" href="jogo_da_velha.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Jogo da Velha</h1>
+    <hr class="sup">
+    <div id="turn"></div>
+        <div class="wraper" name="wraper">
+            <input type="button" class="slot" value="" jogada=""  style="grid-area: quad1;" onclick="insereJogada(0,0,0);">
+            <input type="button" class="slot" value="" jogada=""  style="grid-area: quad2;" onclick="insereJogada(1,0,1);">
+            <input type="button" class="slot" value="" jogada=""  style="grid-area: quad3;" onclick="insereJogada(2,0,2);">
+            <input type="button" class="slot" value="" jogada=""  style="grid-area: quad4;" onclick="insereJogada(3,1,0);">
+            <input type="button" class="slot" value="" jogada=""  style="grid-area: quad5;" onclick="insereJogada(4,1,1);">
+            <input type="button" class="slot" value="" jogada=""  style="grid-area: quad6;" onclick="insereJogada(5,1,2);">
+            <input type="button" class="slot" value="" jogada=""  style="grid-area: quad7;" onclick="insereJogada(6,2,0);">
+            <input type="button" class="slot" value="" jogada=""  style="grid-area: quad8;" onclick="insereJogada(7,2,1);">
+            <input type="button" class="slot" value="" jogada=""  style="grid-area: quad9;" onclick="insereJogada(8,2,2);">
+        </div>
+    <input id="reset" type="button" value="Reiniciar Jogo" onclick="reset();">
+    <hr>   
+    <footer>
+        <span>
+            <p>Luís Felipe Kvieczinski Leal da Silva - 2M</p>
+        </span>
+    </footer> 
+</body>
+</html>
